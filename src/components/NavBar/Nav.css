@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar {
+    border: dashed 4px #f3efe3;
+}
+
+.nav-link {
+    color: #1f4e2a;
+}
+
+.nav-link:hover {
+    color: #534621;
+}
+
+.nav-link:visited {
+    color: rgb(50, 112, 63);
+}
