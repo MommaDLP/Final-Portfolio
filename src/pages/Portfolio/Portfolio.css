@@ -1,0 +1,22 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    width: 100%;
+    height: 850px;
+    border-bottom: solid 2px black;
+}
+
+.projecttext {
+    padding-top: 15px;
+    margin: 10px;
+    color: brown;
+    text-align: center;
+}
+
+.card-body {
+
+}

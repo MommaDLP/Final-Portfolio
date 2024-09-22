@@ -1,0 +1,22 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#portfoliopic {
+    border-radius: 70%;
+    border: solid 4px rgb(138, 9, 9);
+}
+
+#abouttitle {
+    padding: 25px;
+    color: brown !important;
+}
+
+#aboutparagraph {
+    font-weight: 350;
+    background-color: rgb(234, 236, 236);
+    color: brown;
+    padding: 25px;
+}

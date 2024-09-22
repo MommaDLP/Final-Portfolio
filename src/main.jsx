@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom/client';
 
 // Importing necessary pages. All pages from the pages folder need to be listed here
 import App from './App';
-// import AboutMe from './pages/AboutMe/AboutMe';
+import AboutMe from './pages/AboutMe/AboutMe';
 // import Contact from './pages/Contact/Contact';
-// import Portfolio from './pages/Portfolio/Portfolio';
+import Portfolio from './pages/Portfolio/Portfolio';
 // import Resume from './pages/Resume/Resume';
 
 // Import css styling
@@ -19,14 +19,14 @@ const router = createBrowserRouter([
     path:'/',
     element: <App />,
     children: [
-      // {
-      //   index: true,
-      //   element: <AboutMe />,
-      // },
-      // {
-      //   path: '/portfolio',
-      //   element: <Portfolio />,
-      // },
+      {
+        index: true,
+        element: <AboutMe />,
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio />,
+      },
       // {
       //   path: '/contact',
       //   element: <Contact />,
