@@ -1,11 +1,10 @@
-import React from 'react';
+
 import ReactDOM from 'react-dom/client';
-import './index.css'; //tailwindcss
+import './index.css';
 import App from './App';
 
 
 //routes to pages folder
-import App from './App';
 import Home from './pages/Home/Home';
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
