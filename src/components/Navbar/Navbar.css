@@ -1,0 +1,26 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 8vh;
+    padding-right: 2vh;
+    display: flex;
+    justify-content: right;
+    align-content: end;
+}
+
+.bg-nav {
+    background-color: brown ;
+    border: solid 5px #bc6c25;
+}
+
+a.nav-link {
+    color: #f3d3b7;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f3d3b7;
+}
