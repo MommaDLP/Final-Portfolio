@@ -1,0 +1,20 @@
+import './Footer.css';
+
+
+const Footer = () => {
+  return (
+    <div id='footer'>
+        <div className='container'>
+            <footer id='footer-bar' className='py-3'>
+                <h3>Get In Touch!</h3>
+                <a href=''>GitHub</a>
+                <a href=''>LinkedIn</a>
+                <a href=''>Figma</a>
+                <a href=''>Twitter</a>
+            </footer>
+        </div> 
+    </div>
+  );
+};
+
+export default Footer;

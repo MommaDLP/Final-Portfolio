@@ -1,0 +1,32 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    background-color: brown;
+    color: beige;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+footer h3 {
+    padding-right: 45px;
+}
+
+footer a {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(240, 229, 229);
+}
