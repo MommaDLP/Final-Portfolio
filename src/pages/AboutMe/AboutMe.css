@@ -6,17 +6,28 @@
 
 #portfoliopic {
     border-radius: 70%;
-    border: solid 4px rgb(138, 9, 9);
+    border: solid 4px #BC6C25;
+    max-width: 100%; /* Ensures responsiveness */
 }
 
 #abouttitle {
     padding: 25px;
-    color: brown !important;
+    color: #DDA15E !important;
 }
 
 #aboutparagraph {
-    font-weight: 350;
-    background-color: rgb(234, 236, 236);
-    color: brown;
+    font-weight: 550;
+    background-color: #606C38;
+    color: #283618;
     padding: 25px;
+}
+
+.image-container {
+    display:flex;
+    justify-content: flex-start; /* Aligns the image to the left */
+    margin-left: 20px; /* Adds space between text and image */
+}
+
+.row {
+    align-items: flex-start; /* Aligns items at the top */
 }

@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
-
+import logo from '../../assets/Image/Me/logo.png';
 
 
 const Navbar = () => {
@@ -10,6 +10,9 @@ const Navbar = () => {
   return (
     <div>
         <ul className='nav nav-tabs bg-nav'>
+        <li className='nav-item'>
+          <img src={logo} alt="Logo" className="nav-logo" /> {logo.png}
+        </li>
             <li className='nav-link'>
                 <Link to="/" className={currentPage === '/' ? 'nav-link-active' : 'nav-link'} >
                 About Me
